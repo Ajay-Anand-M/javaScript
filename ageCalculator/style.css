@@ -1,0 +1,60 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@100&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+body{
+    text-align: center;
+    background-color: white;
+}
+.mainbody{
+    border: 2px solid blue;             ;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+
+    font-family: 'Pacifico', cursive;
+
+    text-shadow: 1px 1px 1px green;
+  
+    
+}
+
+h2{
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Explora', cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    color:white;
+    color: rgb(60, 235, 153);
+    text-shadow: 1px 1px 1px red;
+}
+#result{
+    color: rgb(60, 235, 153);
+    text-shadow: 1px 1px 1px red;
+}
+button{
+    padding: 5px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: transparent;
+    /* font-family: 'Sofia Sans Semi Condensed', sans-serif; */
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 1px 1px red;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgba(0, 0, 255,0.6);
+    color: white;
+}
+input[type=date]{
+    background-color: transparent;
+    color: white;
+    text-shadow: 1px 1px 1px orange;
+}
