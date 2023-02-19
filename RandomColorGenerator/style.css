@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    height: 95vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    
+  }
+  h1{
+      color: white;
+      font-family: 'Great Vibes', cursive;
+      font-size: 70px;
+      text-shadow: 1px 1px 1px red;
+
+  }
+  h2 {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  span {
+    color: white;
+    text-shadow: 1px 1px 1px red;
+    display: block;
+    margin-bottom: 120px;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: monospace;
+  }
+#generate{
+
+    font-size: 15px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    background-color: rgba(0, 0, 0,0.1);
+    text-shadow: 1px 1px 1px red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#generate:hover{
+    font-size: 25px;
+    background-color: rgba(0, 0, 0,0.1);
+}
